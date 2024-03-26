@@ -1,5 +1,5 @@
 main{
-    height: 92vh;
+    height: 90vh;
     padding: 30px;
     padding-top: 80px;
     background-color: #000000;
@@ -7,7 +7,7 @@ main{
 
 footer{
     position: fixed;
-    height: 8vh;
+    height: 10vh;
     width: 100%;
     background-color: #222222;
 }
@@ -48,8 +48,8 @@ footer{
 }
 
 .square{
-    height: 70px;
-    width: 90px;
+    height: 80px;
+    width: 100px;
     padding: 10px;
     color: white;
     text-align: center;
@@ -59,21 +59,41 @@ footer{
     background-color: #4b4b4b;
 }
 
+#green-f{
+    filter: brightness(0) saturate(100%) invert(66%) sepia(65%) saturate(4296%) hue-rotate(60deg) brightness(105%) contrast(103%);
+}
+
+#green-f:hover{
+    filter: brightness(0) saturate(100%) invert(80%) sepia(58%) saturate(3486%) hue-rotate(89deg) brightness(104%) contrast(100%);
+}
+
 .square > img{
     width: 30px;
     height: 30px;
     filter: invert(1);
 }
 
+.square > img:hover{
+    filter: brightness(0) saturate(100%) invert(71%) sepia(51%) saturate(5447%) hue-rotate(59deg) brightness(103%) contrast(103%);
+}
+
 .square > p{
+    margin-top: 5px;
     font-size: 12px;
 }
 
-.square > span{
-    transform: rotate(-90deg);
+.square > .freccia{
+    transform: rotate(180deg);
     position: relative;
-    left: 29px;
-    bottom: 38px;
+    left: 40px;
+    bottom: 35px;
+    width: 15px;
+    height: 15px;
+    filter: invert(0);
+}
+
+#color-red:hover{
+    filter: brightness(0) saturate(100%) invert(12%) sepia(92%) saturate(6606%) hue-rotate(359deg) brightness(108%) contrast(113%);
 }
 
 .fullscreen{
