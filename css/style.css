@@ -36,7 +36,8 @@ footer{
     margin: 10px;
     width: calc(100% / 7 - 20px);
     height: 150px;
-    border: 1px solid black;
+    background-image: url(../img/webcam.jpg);
+    background-size: contain;
 }
 
 *{
