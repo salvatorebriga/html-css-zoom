@@ -63,11 +63,15 @@ footer{
     filter: invert(1);
 }
 
+.square > p{
+    font-size: 12px;
+}
+
 .square > span{
     transform: rotate(-90deg);
     position: relative;
-    left: 28px;
-    bottom: 35px;
+    left: 29px;
+    bottom: 38px;
 }
 
 .fullscreen{
