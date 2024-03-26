@@ -1,3 +1,36 @@
+main{
+    height: 90vh;
+    padding: 30px;
+    background-color: #000000;
+}
+
+.container-90{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+/*per rendere la scrollbar invisibile perchè non mi piace*/
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.col-10{
+    margin: 10px;
+    width: calc(100% / 7 - 20px);
+    height: 150px;
+    border: 1px solid black;
+}
+
 *{
     margin: 0px;
     padding: 0px;
