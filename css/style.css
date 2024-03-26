@@ -78,9 +78,30 @@ footer{
 .col-10{
     margin: 10px;
     width: calc(100% / 7 - 20px);
-    height: 150px;
+    height: 145px;
     background-image: url(../img/webcam.jpg);
     background-size: contain;
+}
+
+.name{
+    position: relative;
+    top: 120px;
+    padding: 2px;
+    background-color: rgba(168, 124, 124, 0.5);
+    width:120px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.name > img{
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.name > span{
+    font-size: 15px;
 }
 
 *{
