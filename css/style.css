@@ -1,6 +1,7 @@
 main{
     height: 92vh;
     padding: 30px;
+    padding-top: 80px;
     background-color: #000000;
 }
 
@@ -11,6 +12,48 @@ footer{
     background-color: #222222;
 }
 
+.fullscreen{
+    color: white;
+    background-color: #000000;
+    position: relative;
+}
+
+.speaker-view{
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    background-color: #4b4b4b;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.fulls{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-color: #4b4b4b;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.speaker-view > img{
+    width: 15px;
+    height: 15px;
+    filter: invert(1);
+    margin-right: 5px;
+}
+
+.speaker-view > span{
+    font-size: 12px;
+}
+
+.fulls > img{
+    width: 15px;
+    height: 15px;
+    filter: invert(1);
+}
 
 .container-90{
     width: 90%;
@@ -44,4 +87,5 @@ footer{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
